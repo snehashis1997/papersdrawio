@@ -125,6 +125,78 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="he91AocFa1mMfKtI6cL--1" value="Input: Single RGB Image" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--2" value="2D Keypoint Detection (OpenPose)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--3" value="SMPLify-X Optimization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--4" value="SMPL-X Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--5" value="Output: 3D Body, Hands, and Face" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" edge="1" parent="1" source="he91AocFa1mMfKtI6cL--1" target="he91AocFa1mMfKtI6cL--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="270" as="sourcePoint" />
+            <mxPoint x="240" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" edge="1" parent="1" source="he91AocFa1mMfKtI6cL--2" target="he91AocFa1mMfKtI6cL--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="370" as="sourcePoint" />
+            <mxPoint x="240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--8" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" edge="1" parent="1" source="he91AocFa1mMfKtI6cL--3" target="he91AocFa1mMfKtI6cL--4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="470" as="sourcePoint" />
+            <mxPoint x="240" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--9" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" edge="1" parent="1" source="he91AocFa1mMfKtI6cL--4" target="he91AocFa1mMfKtI6cL--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="570" as="sourcePoint" />
+            <mxPoint x="240" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--10" value="SMPLify-X Components" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--11" value="VPoser Pose Prior" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--12" value="Collision Penalty" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--13" value="Gender Classifier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--14" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="he91AocFa1mMfKtI6cL--11" target="he91AocFa1mMfKtI6cL--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="470" as="sourcePoint" />
+            <mxPoint x="260" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--15" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="he91AocFa1mMfKtI6cL--12" target="he91AocFa1mMfKtI6cL--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="530" as="sourcePoint" />
+            <mxPoint x="260" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--16" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;exitX=1;exitY=0.5;" edge="1" parent="1" source="he91AocFa1mMfKtI6cL--13" target="he91AocFa1mMfKtI6cL--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="590" as="sourcePoint" />
+            <mxPoint x="260" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="he91AocFa1mMfKtI6cL--17" value="&lt;span id=&quot;docs-internal-guid-0c43dc84-7fff-f925-95de-b9307af92338&quot;&gt;&lt;p style=&quot;line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;&quot; dir=&quot;ltr&quot;&gt;&lt;a style=&quot;text-decoration-line: none;&quot; href=&quot;https://arxiv.org/pdf/1904.05866&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Arial, sans-serif; color: rgb(17, 85, 204); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Expressive Body Capture: 3D Hands, Face, and Body from a Single Image&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="124" y="110" width="580" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
