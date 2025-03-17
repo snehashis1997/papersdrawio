@@ -70,22 +70,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9NWXm3F_RzBPLggocSue-1" value="Input: Multi-view Videos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NWXm3F_RzBPLggocSue-2" value="2D Pose Detection &amp; Tracking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NWXm3F_RzBPLggocSue-3" value="Physics-Geometry Consistent Denoising" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NWXm3F_RzBPLggocSue-4" value="Latent Motion Prior" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NWXm3F_RzBPLggocSue-5" value="Joint Optimization of Motions &amp; Cameras" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NWXm3F_RzBPLggocSue-6" value="Output: 3D Human Meshes &amp; Camera Parameters" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NWXm3F_RzBPLggocSue-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" edge="1" parent="1" source="9NWXm3F_RzBPLggocSue-1" target="9NWXm3F_RzBPLggocSue-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
