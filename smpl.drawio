@@ -8,13 +8,13 @@
           <mxGeometry x="20" y="100" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Preprocessing:&#xa; - Extract 2D keypoints&#xa; - Detect shot boundaries&#xa; - Track identity across shots" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
-          <mxGeometry x="300" y="30" width="250" height="80" as="geometry" />
+          <mxGeometry x="300" y="90" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Optimization:&#xa; - Uses SMPL model&#xa; - Canonical frame alignment&#xa; - Smoothness constraints&#xa; - Optimizes 3D pose across shots" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
-          <mxGeometry x="300" y="130" width="250" height="80" as="geometry" />
+          <mxGeometry x="300" y="190" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5" value="Output:&#xa; - Long, consistent 3D human mesh sequences&#xa; - MS-AVA dataset generation" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
-          <mxGeometry x="300" y="260" width="250" height="80" as="geometry" />
+          <mxGeometry x="290" y="300" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;exitX=1;" edge="1" parent="1" source="3" target="4">
           <mxGeometry relative="1" as="geometry" />
@@ -57,6 +57,9 @@
         </mxCell>
         <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" edge="1" parent="1" source="15" target="16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OA9Lw6E5aRPBowYXquBI-19" value="Human Mesh Recovery from Multiple Shots" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="330" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
