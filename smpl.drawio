@@ -58,8 +58,8 @@
         <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" edge="1" parent="1" source="15" target="16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OA9Lw6E5aRPBowYXquBI-19" value="Human Mesh Recovery from Multiple Shots" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="20" width="330" height="40" as="geometry" />
+        <mxCell id="OA9Lw6E5aRPBowYXquBI-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Human Mesh Recovery from Multiple Shots&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="360" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
