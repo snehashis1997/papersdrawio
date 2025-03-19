@@ -4,61 +4,61 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Multi-Shot Optimization (Offline Preprocessing)" style="rounded=1;whiteSpace=wrap;fillColor=#D9EAD3;" vertex="1" parent="1">
+        <mxCell id="2" value="Multi-Shot Optimization (Offline Preprocessing)" style="rounded=1;whiteSpace=wrap;fillColor=#D9EAD3;" parent="1" vertex="1">
           <mxGeometry x="20" y="100" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Preprocessing:&#xa; - Extract 2D keypoints&#xa; - Detect shot boundaries&#xa; - Track identity across shots" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="3" value="Preprocessing:&#xa; - Extract 2D keypoints&#xa; - Detect shot boundaries&#xa; - Track identity across shots" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="300" y="90" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Optimization:&#xa; - Uses SMPL model&#xa; - Canonical frame alignment&#xa; - Smoothness constraints&#xa; - Optimizes 3D pose across shots" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="4" value="Optimization:&#xa; - Uses SMPL model&#xa; - Canonical frame alignment&#xa; - Smoothness constraints&#xa; - Optimizes 3D pose across shots" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="300" y="190" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Output:&#xa; - Long, consistent 3D human mesh sequences&#xa; - MS-AVA dataset generation" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="5" value="Output:&#xa; - Long, consistent 3D human mesh sequences&#xa; - MS-AVA dataset generation" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="290" y="300" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;exitX=1;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;exitX=1;" parent="1" source="3" target="4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;exitX=1;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="7" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;exitX=1;" parent="1" source="4" target="5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Human Mesh Recovery Models" style="rounded=1;whiteSpace=wrap;fillColor=#D9EAD3;" vertex="1" parent="1">
+        <mxCell id="8" value="Human Mesh Recovery Models" style="rounded=1;whiteSpace=wrap;fillColor=#D9EAD3;" parent="1" vertex="1">
           <mxGeometry x="40" y="490" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="HMR (Single-Frame Model):&#xa; - Input: Single RGB frame&#xa; - Image encoder extracts features&#xa; - Predicts SMPL parameters&#xa; - Trained with 2D/3D loss" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="9" value="HMR (Single-Frame Model):&#xa; - Input: Single RGB frame&#xa; - Image encoder extracts features&#xa; - Predicts SMPL parameters&#xa; - Trained with 2D/3D loss" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="440" y="410" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="t-HMMR (Temporal Model):&#xa; - Transformer-based architecture&#xa; - Handles missing frames&#xa; - Smooth, consistent human mesh recovery" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="10" value="t-HMMR (Temporal Model):&#xa; - Transformer-based architecture&#xa; - Handles missing frames&#xa; - Smooth, consistent human mesh recovery" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="440" y="530" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" edge="1" parent="1" source="8" target="9">
+        <mxCell id="11" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" parent="1" source="8" target="9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" edge="1" parent="1" source="8" target="10">
+        <mxCell id="12" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" parent="1" source="8" target="10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="Final Pipeline Workflow" style="rounded=1;whiteSpace=wrap;fillColor=#D9EAD3;" vertex="1" parent="1">
+        <mxCell id="13" value="Final Pipeline Workflow" style="rounded=1;whiteSpace=wrap;fillColor=#D9EAD3;" parent="1" vertex="1">
           <mxGeometry x="40" y="680" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="Offline Multi-Shot Optimization:&#xa; - Generates pseudo-ground truth 3D meshes&#xa; - MS-AVA dataset creation" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="14" value="Offline Multi-Shot Optimization:&#xa; - Generates pseudo-ground truth 3D meshes&#xa; - MS-AVA dataset creation" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="450" y="625" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="Training Phase:&#xa; - HMR model trained for robustness&#xa; - t-HMMR trained for consistency" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="15" value="Training Phase:&#xa; - HMR model trained for robustness&#xa; - t-HMMR trained for consistency" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="450" y="720" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="Inference (Real-World Application):&#xa; - Extract 3D motion from movies&#xa; - Apply single-frame or temporal models&#xa; - Used in VR, action recognition, motion capture" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" vertex="1" parent="1">
+        <mxCell id="16" value="Inference (Real-World Application):&#xa; - Extract 3D motion from movies&#xa; - Apply single-frame or temporal models&#xa; - Used in VR, action recognition, motion capture" style="rounded=1;whiteSpace=wrap;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="510" y="870" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" edge="1" parent="1" source="13" target="14">
+        <mxCell id="17" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" parent="1" source="13" target="14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" edge="1" parent="1" source="13" target="15">
+        <mxCell id="18" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" parent="1" source="13" target="15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" edge="1" parent="1" source="15" target="16">
+        <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;rounded=1;" parent="1" source="15" target="16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OA9Lw6E5aRPBowYXquBI-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Human Mesh Recovery from Multiple Shots&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFCCCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+        <mxCell id="OA9Lw6E5aRPBowYXquBI-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Human Mesh Recovery from Multiple Shots&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFCCCC,var(--ge-dark-color, #121212));" parent="1" vertex="1">
           <mxGeometry x="230" y="20" width="390" height="40" as="geometry" />
         </mxCell>
       </root>
@@ -208,6 +208,57 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_AV5b7ukBmp-uImsFkA-1" target="d_AV5b7ukBmp-uImsFkA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-1" value="Input Image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_AV5b7ukBmp-uImsFkA-2" target="d_AV5b7ukBmp-uImsFkA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-2" value="Backbone Network&amp;nbsp;&lt;br&gt;(Feature Extraction)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_AV5b7ukBmp-uImsFkA-3" target="d_AV5b7ukBmp-uImsFkA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-3" value="Center-aligned&lt;br&gt;Instance Map" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_AV5b7ukBmp-uImsFkA-4" target="d_AV5b7ukBmp-uImsFkA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-4" value="Joint-aligned&lt;br&gt;Instance Map" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_AV5b7ukBmp-uImsFkA-5" target="d_AV5b7ukBmp-uImsFkA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-5" value="Instance-aware Contrastive Learning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="460" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_AV5b7ukBmp-uImsFkA-6" target="d_AV5b7ukBmp-uImsFkA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="d_AV5b7ukBmp-uImsFkA-6" target="d_AV5b7ukBmp-uImsFkA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-6" value="&amp;nbsp;Heatmaps &amp;amp; Feature Sampling&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-7" value="Mesh Regression (SMPL Estimation)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-8" value="Loss Functions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.408;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="d_AV5b7ukBmp-uImsFkA-5" target="d_AV5b7ukBmp-uImsFkA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_AV5b7ukBmp-uImsFkA-21" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px; color: rgb(255, 51, 51);&quot;&gt;Instance-aware Contrastive Learning for Occluded Human Mesh Reconstruction&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="200" width="461" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
