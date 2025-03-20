@@ -276,29 +276,62 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_xDrnw6rJjolbz4Zr_S_-1" target="_xDrnw6rJjolbz4Zr_S_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_xDrnw6rJjolbz4Zr_S_-1" value="Multi-View Images&lt;br&gt;(From Static Cams)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_xDrnw6rJjolbz4Zr_S_-2" value="Heatmap Feature Extraction (HRNet, OpenPose)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_xDrnw6rJjolbz4Zr_S_-3" target="_xDrnw6rJjolbz4Zr_S_-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_xDrnw6rJjolbz4Zr_S_-3" value="Image Feature&amp;nbsp;Extraction&lt;br&gt;(ResNet, ViT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="470" width="150" height="60" as="geometry" />
+          <mxGeometry x="204" y="300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_xDrnw6rJjolbz4Zr_S_-5" target="_xDrnw6rJjolbz4Zr_S_-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_xDrnw6rJjolbz4Zr_S_-5" value="Transformer&amp;nbsp;Encoder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="584.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="204" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_xDrnw6rJjolbz4Zr_S_-6" target="_xDrnw6rJjolbz4Zr_S_-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_xDrnw6rJjolbz4Zr_S_-6" value="Multi-View Fusion&lt;br&gt;(HeatEncoder)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="590" width="150" height="60" as="geometry" />
+          <mxGeometry x="430" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_xDrnw6rJjolbz4Zr_S_-7" target="_xDrnw6rJjolbz4Zr_S_-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_xDrnw6rJjolbz4Zr_S_-7" value="Transformer&amp;nbsp;Decoder&lt;br&gt;(Neural&amp;nbsp;Optimization)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="140" width="160" height="90" as="geometry" />
+          <mxGeometry x="300" y="580" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_xDrnw6rJjolbz4Zr_S_-9" target="_xDrnw6rJjolbz4Zr_S_-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_xDrnw6rJjolbz4Zr_S_-9" value="SMPL Parameter&lt;br&gt;Refinement (Iter)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_xDrnw6rJjolbz4Zr_S_-10" value="3D Human Mesh&lt;br&gt;Reconstruction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;HeatFormer: A Neural Optimizer for Multiview Human Mesh Recovery&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="105" y="70" width="610" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.583;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_xDrnw6rJjolbz4Zr_S_-1" target="_xDrnw6rJjolbz4Zr_S_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.613;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_xDrnw6rJjolbz4Zr_S_-2" target="_xDrnw6rJjolbz4Zr_S_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_xDrnw6rJjolbz4Zr_S_-22" target="_xDrnw6rJjolbz4Zr_S_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_xDrnw6rJjolbz4Zr_S_-22" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="500" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
